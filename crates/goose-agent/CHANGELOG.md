@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-alpha.13](https://github.com/q-qp-p/aaif-goose/compare/gdk-v0.1.0-alpha.12...gdk-v0.1.0-alpha.13) - 2026-10-19
+
+### Fixed
+
+- *(compaction)* context freeze preserved message must stay user-visible ([#12692](https://github.com/q-qp-p/aaif-goose/pull/12692))
+
+### Other
+
+- Limit concurrent subagents with GOOSE_MAX_CONCURRENT_SUBAGENTS ([#12946](https://github.com/q-qp-p/aaif-goose/pull/12946))
+- move skills discovery into GDK ([#12935](https://github.com/q-qp-p/aaif-goose/pull/12935))
+- run foreground subagents in the GDK ([#12792](https://github.com/q-qp-p/aaif-goose/pull/12792))
+- agent loop: make tool operations own tool call checks ([#12865](https://github.com/q-qp-p/aaif-goose/pull/12865))
+
 ## [0.1.0-alpha.12](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.11...gdk-v0.1.0-alpha.12) - 2026-10-13
 
 ### Added
